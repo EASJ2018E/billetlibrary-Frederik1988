@@ -9,8 +9,16 @@ namespace BilletLibrary
     /// </summary>
     public abstract class Køretøjer
     {
+        /// <summary>
+        /// Sætter prisen køretøjet skal betale for at passere broen
+        /// </summary>
+        /// <returns></returns>
         public abstract decimal Pris();
 
+        /// <summary>
+        /// Returnerer hvilken slags køretøj der er tale om
+        /// </summary>
+        /// <returns></returns>
         public abstract string Køretøj();
     }
 }

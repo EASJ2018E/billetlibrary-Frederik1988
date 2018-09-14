@@ -11,9 +11,9 @@ namespace BilletLibrary
         public string NummerPlade { get; set; }
 
         public DateTime Dato { get; set; }
-        
+
         /// <summary>
-        /// Hvor meget en bil skal betale for at køre over broen
+        /// Sætter prisen køretøjet skal betale for at passere broen
         /// </summary>
         /// <returns></returns>
         public override decimal Pris()

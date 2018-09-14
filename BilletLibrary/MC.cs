@@ -7,18 +7,25 @@ namespace BilletLibrary
     /// <summary>
     /// En klasse for køretøjer som er motorcykler
     /// </summary>
-    public class MC
+    public class MC : Køretøjer
     {
         public string NummerPlade { get; set; }
 
         public DateTime Dato { get; set; }
 
-        public decimal Pris()
+        /// <summary>
+        /// Sætter prisen køretøjet skal betale for at passere broen
+        /// </summary>
+        /// <returns></returns>
+        public override decimal Pris()
         {
             return 125;
         }
-
-        public string Køretøj()
+        /// <summary>
+        /// Returnerer hvilken slags køretøj der er tale om
+        /// </summary>
+        /// <returns></returns>
+        public override string Køretøj()
         {
             return "MC";
         }
