@@ -7,3 +7,4 @@ C:\source\BilletLibrary\BilletLibrary\obj\Debug\netstandard2.0\BilletLibrary.Ass
 C:\source\BilletLibrary\BilletLibrary\obj\Debug\netstandard2.0\BilletLibrary.AssemblyInfo.cs
 C:\source\BilletLibrary\BilletLibrary\obj\Debug\netstandard2.0\BilletLibrary.dll
 C:\source\BilletLibrary\BilletLibrary\obj\Debug\netstandard2.0\BilletLibrary.pdb
+C:\source\BilletLibrary\BilletLibrary\bin\Debug\netstandard2.0\BilletLibrary.xml

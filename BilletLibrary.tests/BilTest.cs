@@ -33,5 +33,27 @@ namespace BilletLibrary.tests
             Assert.AreSame(køretøj, bil.Køretøj());
 
         }
+        [TestMethod]
+        [ExpectedException(typeof(ArgumentException), "Nummerpladen du har indtastet indeholder for mange cifre")]
+
+        public void ForLangNummerPlade()
+        {
+            //Arrange
+            var bil = new Bil("cb123456", new DateTime(2018, 9, 14));
+        }
+
+        [TestMethod]
+
+        public void NummerPlade()
+        {
+            //Arrange
+            var bil = new Bil("cd12345", new DateTime(2018, 9, 14));
+
+            //Act
+            string nummerPlade = bil.NummerPlade;
+
+            //Assert
+            Assert.AreEqual(7, nummerPlade.Length);
+        }
     }
 }

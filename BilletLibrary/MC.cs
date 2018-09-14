@@ -5,14 +5,27 @@ using System.Text;
 namespace BilletLibrary
 {
     /// <summary>
-    /// En klasse for køretøjer som er motorcykler
+    /// En klasse for køretøjer som er motorcykler. Arver properties fra Køretøjer
     /// </summary>
     public class MC : Køretøjer
     {
-        public string NummerPlade { get; set; }
+        #region Constructors
+        
+#pragma warning disable CS1591 // Missing XML comment for publicly visible type or member
+        public MC(string nummerPlade, DateTime dato) : base(nummerPlade, dato)
+#pragma warning restore CS1591 // Missing XML comment for publicly visible type or member
+        {
+        }
 
-        public DateTime Dato { get; set; }
+        
+#pragma warning disable CS1591 // Missing XML comment for publicly visible type or member
+        public MC()
+#pragma warning restore CS1591 // Missing XML comment for publicly visible type or member
+        {
+        }
+        #endregion
 
+        #region Methods
         /// <summary>
         /// Sætter prisen køretøjet skal betale for at passere broen
         /// </summary>
@@ -29,5 +42,7 @@ namespace BilletLibrary
         {
             return "MC";
         }
+        #endregion
+        
     }
 }

@@ -2,31 +2,91 @@
   "C:\\source\\BilletLibrary\\BilletLibrary.tests\\bin\\Debug\\netcoreapp2.0\\BilletLibrary.dll": {
     "C:\\source\\BilletLibrary\\BilletLibrary\\Bil.cs": {
       "BilletLibrary.Bil": {
-        "System.String BilletLibrary.Bil::get_NummerPlade()": {
-          "Lines": {
-            "11": 0
-          },
-          "Branches": []
-        },
-        "System.DateTime BilletLibrary.Bil::get_Dato()": {
-          "Lines": {
-            "13": 0
-          },
-          "Branches": []
-        },
         "System.Decimal BilletLibrary.Bil::Pris()": {
           "Lines": {
-            "20": 2,
-            "21": 2,
-            "22": 2
+            "33": 2,
+            "34": 2,
+            "35": 2
           },
           "Branches": []
         },
         "System.String BilletLibrary.Bil::Køretøj()": {
           "Lines": {
-            "29": 2,
-            "30": 2,
-            "31": 2
+            "42": 2,
+            "43": 2,
+            "44": 2
+          },
+          "Branches": []
+        },
+        "System.Void BilletLibrary.Bil::.ctor(System.String,System.DateTime)": {
+          "Lines": {
+            "14": 2,
+            "16": 1,
+            "17": 1
+          },
+          "Branches": []
+        },
+        "System.Void BilletLibrary.Bil::.ctor()": {
+          "Lines": {
+            "20": 4,
+            "22": 4,
+            "23": 4
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\source\\BilletLibrary\\BilletLibrary\\Køretøjer.cs": {
+      "BilletLibrary.Køretøjer": {
+        "System.String BilletLibrary.Køretøjer::get_NummerPlade()": {
+          "Lines": {
+            "16": 6
+          },
+          "Branches": []
+        },
+        "System.DateTime BilletLibrary.Køretøjer::get_Dato()": {
+          "Lines": {
+            "21": 3
+          },
+          "Branches": []
+        },
+        "System.Void BilletLibrary.Køretøjer::.ctor(System.String,System.DateTime)": {
+          "Lines": {
+            "34": 6,
+            "35": 6,
+            "36": 6,
+            "37": 3,
+            "38": 3,
+            "39": 3,
+            "41": 3,
+            "42": 3,
+            "44": 3,
+            "45": 3
+          },
+          "Branches": [
+            {
+              "Line": 36,
+              "Offset": 22,
+              "EndOffset": 24,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 3
+            },
+            {
+              "Line": 36,
+              "Offset": 22,
+              "EndOffset": 36,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 3
+            }
+          ]
+        },
+        "System.Void BilletLibrary.Køretøjer::.ctor()": {
+          "Lines": {
+            "50": 6,
+            "51": 6,
+            "53": 6
           },
           "Branches": []
         }
@@ -34,31 +94,35 @@
     },
     "C:\\source\\BilletLibrary\\BilletLibrary\\MC.cs": {
       "BilletLibrary.MC": {
-        "System.String BilletLibrary.MC::get_NummerPlade()": {
-          "Lines": {
-            "12": 0
-          },
-          "Branches": []
-        },
-        "System.DateTime BilletLibrary.MC::get_Dato()": {
-          "Lines": {
-            "14": 0
-          },
-          "Branches": []
-        },
         "System.Decimal BilletLibrary.MC::Pris()": {
           "Lines": {
-            "17": 1,
-            "18": 1,
-            "19": 1
+            "34": 1,
+            "35": 1,
+            "36": 1
           },
           "Branches": []
         },
         "System.String BilletLibrary.MC::Køretøj()": {
           "Lines": {
-            "22": 1,
-            "23": 1,
-            "24": 1
+            "42": 1,
+            "43": 1,
+            "44": 1
+          },
+          "Branches": []
+        },
+        "System.Void BilletLibrary.MC::.ctor(System.String,System.DateTime)": {
+          "Lines": {
+            "15": 4,
+            "17": 2,
+            "18": 2
+          },
+          "Branches": []
+        },
+        "System.Void BilletLibrary.MC::.ctor()": {
+          "Lines": {
+            "22": 2,
+            "24": 2,
+            "25": 2
           },
           "Branches": []
         }
