@@ -1,3 +1,4 @@
+using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace BilletLibrary.tests
@@ -6,7 +7,7 @@ namespace BilletLibrary.tests
     public class BilTest
     {
         [TestMethod]
-        public void Price()
+        public void Pris()
         {
             //Arrange
             var bil = new Bil();
@@ -16,6 +17,20 @@ namespace BilletLibrary.tests
 
             //Assert
             Assert.AreEqual(240,pris);
+        }
+
+        [TestMethod]
+        
+        public void Køretøj()
+        {
+            //Arrange
+            var bil = new Bil();
+
+            //Act
+            string køretøj = "Bil";
+
+            //Assert
+            Assert.AreSame(køretøj, bil.Køretøj());
 
         }
     }

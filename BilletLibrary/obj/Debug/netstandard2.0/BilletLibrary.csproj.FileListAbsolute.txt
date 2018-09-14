@@ -1,0 +1,9 @@
+C:\source\BilletLibrary\BilletLibrary\bin\Debug\netstandard2.0\BilletLibrary.deps.json
+C:\source\BilletLibrary\BilletLibrary\bin\Debug\netstandard2.0\BilletLibrary.dll
+C:\source\BilletLibrary\BilletLibrary\bin\Debug\netstandard2.0\BilletLibrary.pdb
+C:\source\BilletLibrary\BilletLibrary\obj\Debug\netstandard2.0\BilletLibrary.csprojAssemblyReference.cache
+C:\source\BilletLibrary\BilletLibrary\obj\Debug\netstandard2.0\BilletLibrary.csproj.CoreCompileInputs.cache
+C:\source\BilletLibrary\BilletLibrary\obj\Debug\netstandard2.0\BilletLibrary.AssemblyInfoInputs.cache
+C:\source\BilletLibrary\BilletLibrary\obj\Debug\netstandard2.0\BilletLibrary.AssemblyInfo.cs
+C:\source\BilletLibrary\BilletLibrary\obj\Debug\netstandard2.0\BilletLibrary.dll
+C:\source\BilletLibrary\BilletLibrary\obj\Debug\netstandard2.0\BilletLibrary.pdb
