@@ -20,6 +20,7 @@ namespace BilletLibrary
         /// </summary>
         public DateTime Dato { get; set; }
 
+
         #endregion
 
 

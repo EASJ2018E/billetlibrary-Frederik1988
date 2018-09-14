@@ -6,7 +6,7 @@ namespace BilletLibrary
     /// <summary>
     /// En klasse for køretøjer som er biler. Arver properties fra Køretøjer
     /// </summary>
-    public class Bil : Køretøjer
+    public class Bil : Køretøjer , IBroBizz
     {
 
         #region Constructors
@@ -42,6 +42,17 @@ namespace BilletLibrary
         {
             return "Bil";
         }
+
+        /// <summary>
+        /// Beregner BroBizz rabat for biler
+        /// </summary>
+        /// <returns></returns>
+        public decimal BroBizz()
+        {
+            return Pris() * (0.95m);
+        }
         #endregion
+
+
     }
 }

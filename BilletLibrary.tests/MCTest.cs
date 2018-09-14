@@ -60,6 +60,35 @@ namespace BilletLibrary.tests
             //Assert
             Assert.AreEqual(7,nummerPlade.Length);
         }
-        
+
+        [TestMethod]
+
+        public void BroBizzRabat()
+        {
+            //Arrange
+            var mc = new MC();
+
+            //Act
+            decimal prisMedRabat = mc.BroBizz();
+
+            //Assert
+            Assert.AreEqual(118.75m, prisMedRabat);
+        }
+
+        //[TestMethod]
+
+        //public void BroBizzRabat()
+        //{
+        //    //Arrange
+        //    double mc1 = 125;
+        //    double mc2 = 0.95;
+
+        //    //Act
+        //    double mc = mc1 * mc2;
+
+        //    //Assert
+        //    Assert.AreEqual(118.75, mc, 118.7);
+        //}
+
     }
 }

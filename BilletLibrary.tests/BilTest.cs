@@ -55,5 +55,19 @@ namespace BilletLibrary.tests
             //Assert
             Assert.AreEqual(7, nummerPlade.Length);
         }
+
+        [TestMethod]
+
+        public void BroBizzRabat()
+        {
+            //Arrange
+            var bil = new Bil();
+
+            //Act
+            decimal prisMedRabat = bil.BroBizz();
+
+            //Assert
+            Assert.AreEqual(228m, prisMedRabat);
+        }
     }
 }

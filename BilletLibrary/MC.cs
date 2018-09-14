@@ -7,7 +7,7 @@ namespace BilletLibrary
     /// <summary>
     /// En klasse for køretøjer som er motorcykler. Arver properties fra Køretøjer
     /// </summary>
-    public class MC : Køretøjer
+    public class MC : Køretøjer , IBroBizz
     {
         #region Constructors
         
@@ -42,7 +42,17 @@ namespace BilletLibrary
         {
             return "MC";
         }
+
+        /// <summary>
+        /// Beregner BroBizz rabat for motorcykler
+        /// </summary>
+        /// <returns></returns>
+        public decimal BroBizz()
+        {
+            
+            return Pris() * (0.95m);
+        }
         #endregion
-        
+
     }
 }

@@ -21,6 +21,23 @@
             </summary>
             <returns></returns>
         </member>
+        <member name="M:BilletLibrary.Bil.BroBizz">
+            <summary>
+            Beregner BroBizz rabat for biler
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:BilletLibrary.IBroBizz">
+            <summary>
+            Interface til at beregne rabat med BroBizz
+            </summary>
+        </member>
+        <member name="M:BilletLibrary.IBroBizz.BroBizz">
+            <summary>
+            Hvis der skal gives BroBizz rabat
+            </summary>
+            <returns></returns>
+        </member>
         <member name="T:BilletLibrary.Køretøjer">
             <summary>
             En abstract klasse som forskellige slags køretøjer nedarver fra. 
@@ -74,6 +91,12 @@
         <member name="M:BilletLibrary.MC.Køretøj">
             <summary>
             Returnerer hvilken slags køretøj der er tale om
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BilletLibrary.MC.BroBizz">
+            <summary>
+            Beregner BroBizz rabat for motorcykler
             </summary>
             <returns></returns>
         </member>
