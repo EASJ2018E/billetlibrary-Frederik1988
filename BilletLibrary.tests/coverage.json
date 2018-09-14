@@ -31,6 +31,38 @@
           "Branches": []
         }
       }
+    },
+    "C:\\source\\BilletLibrary\\BilletLibrary\\MC.cs": {
+      "BilletLibrary.MC": {
+        "System.String BilletLibrary.MC::get_NummerPlade()": {
+          "Lines": {
+            "12": 0
+          },
+          "Branches": []
+        },
+        "System.DateTime BilletLibrary.MC::get_Dato()": {
+          "Lines": {
+            "14": 0
+          },
+          "Branches": []
+        },
+        "System.Decimal BilletLibrary.MC::Pris()": {
+          "Lines": {
+            "17": 1,
+            "18": 1,
+            "19": 1
+          },
+          "Branches": []
+        },
+        "System.String BilletLibrary.MC::Køretøj()": {
+          "Lines": {
+            "22": 1,
+            "23": 1,
+            "24": 1
+          },
+          "Branches": []
+        }
+      }
     }
   }
 }
