@@ -1,30 +1,30 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
-  <Class Name="BilletLibrary.Bil">
-    <Position X="11" Y="3.5" Width="1.5" />
+  <Class Name="BilletLibrary.Bil" Collapsed="true">
+    <Position X="9" Y="2.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQCAAAAAAAAIAA=</HashCode>
       <FileName>Bil.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
-  <Class Name="BilletLibrary.Køretøjer">
-    <Position X="12" Y="0.75" Width="1.5" />
+  <Class Name="BilletLibrary.Køretøjer" Collapsed="true">
+    <Position X="10.25" Y="1" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAARCBAAAAAAAAAA=</HashCode>
       <FileName>Køretøjer.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="BilletLibrary.MC">
-    <Position X="13" Y="3.5" Width="1.5" />
+  <Class Name="BilletLibrary.MC" Collapsed="true">
+    <Position X="11.25" Y="2.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQCAAAAAAAAIAA=</HashCode>
       <FileName>MC.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
-  <Interface Name="BilletLibrary.IBroBizz">
-    <Position X="15.5" Y="0.75" Width="1.5" />
+  <Interface Name="BilletLibrary.IBroBizz" Collapsed="true">
+    <Position X="13.75" Y="1" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAA=</HashCode>
       <FileName>IBroBizz.cs</FileName>
