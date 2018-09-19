@@ -9,11 +9,23 @@ namespace BilletLibrary
     /// </summary>
     public abstract class Køretøjer
     {
+        private string _nummerPlade;
         #region Properties
         /// <summary>
         /// Køretøjets nummerplade
         /// </summary>
-        public string NummerPlade { get; set; }
+        public string NummerPlade
+        {
+            get => _nummerPlade;
+            set
+            {
+                if (_nummerPlade.Length <= 7)
+                {
+                    NummerPlade = _nummerPlade;
+                }
+                _nummerPlade = value;
+            }
+        }
 
         /// <summary>
         /// Hvornår køretøjet krydsede broen
@@ -34,14 +46,7 @@ namespace BilletLibrary
         /// <param name="dato"></param>
         public Køretøjer(string nummerPlade, DateTime dato)
         {
-            if (nummerPlade.Length <= 7)
-            {
-                NummerPlade = nummerPlade;
-            }
-            else
-            {
-                throw new ArgumentException("Nummerpladen du har indtastet indeholder for mange cifre");
-            }
+            NummerPlade = nummerPlade;
             Dato = dato;
         }
 
@@ -50,7 +55,7 @@ namespace BilletLibrary
         /// </summary>
         public Køretøjer()
         {
-            
+
         }
 
         #endregion
@@ -70,7 +75,7 @@ namespace BilletLibrary
         /// </summary>
         /// <returns></returns>
         public abstract string Køretøj();
-        
+
         #endregion
 
     }
