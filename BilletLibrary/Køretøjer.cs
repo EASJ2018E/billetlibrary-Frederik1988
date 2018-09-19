@@ -19,9 +19,9 @@ namespace BilletLibrary
             get => _nummerPlade;
             set
             {
-                if (_nummerPlade.Length <= 7)
+                if (_nummerPlade.Length > 7)
                 {
-                    NummerPlade = _nummerPlade;
+                    throw new ArgumentOutOfRangeException("Nummerplade skal være mindre end 8 tegn");
                 }
                 _nummerPlade = value;
             }
