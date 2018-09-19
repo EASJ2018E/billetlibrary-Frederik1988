@@ -5790,23 +5790,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\skaer\\.nuget\\packages\\": {},
+    "C:\\Users\\theke\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\source\\BilletLibrary\\BilletLibrary.tests\\BilletLibrary.tests.csproj",
+      "projectUniqueName": "C:\\Users\\theke\\source\\repos\\billetlibrary-Frederik1988\\BilletLibrary.tests\\BilletLibrary.tests.csproj",
       "projectName": "BilletLibrary.tests",
-      "projectPath": "C:\\source\\BilletLibrary\\BilletLibrary.tests\\BilletLibrary.tests.csproj",
-      "packagesPath": "C:\\Users\\skaer\\.nuget\\packages\\",
-      "outputPath": "C:\\source\\BilletLibrary\\BilletLibrary.tests\\obj\\",
+      "projectPath": "C:\\Users\\theke\\source\\repos\\billetlibrary-Frederik1988\\BilletLibrary.tests\\BilletLibrary.tests.csproj",
+      "packagesPath": "C:\\Users\\theke\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\theke\\source\\repos\\billetlibrary-Frederik1988\\BilletLibrary.tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\skaer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\theke\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5819,8 +5819,8 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "C:\\source\\BilletLibrary\\BilletLibrary\\BilletLibrary.csproj": {
-              "projectPath": "C:\\source\\BilletLibrary\\BilletLibrary\\BilletLibrary.csproj"
+            "C:\\Users\\theke\\source\\repos\\billetlibrary-Frederik1988\\BilletLibrary\\BilletLibrary.csproj": {
+              "projectPath": "C:\\Users\\theke\\source\\repos\\billetlibrary-Frederik1988\\BilletLibrary\\BilletLibrary.csproj"
             }
           }
         }
